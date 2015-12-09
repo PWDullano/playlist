@@ -1,0 +1,76 @@
+@font-face {
+  font-family:'avenir';
+  src:url('font/AvenirNextLTPro-Regular.otf');
+}
+
+body{
+  background: #EEEEEE;
+}
+
+.head{
+  border-bottom: 1px solid black;
+  height: 37px;
+  background: #9B9B8C;
+}
+
+.track{
+  font-family: 'avenir';
+  position: relative;
+  top:200px;
+  left: 90px;
+  width: 200px;
+  color: purple;
+  font-size: 48px;
+  }
+
+button {
+  font-family: 'avenir';
+  border: 1px solid black;
+  position: relative;
+  top: 310px;
+  left: 90px;
+  width: 180px;
+  height: 40px;
+  border-radius: 4px;
+  text-align: center;
+  background: #353526;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+.rail{
+  opacity: 0.19;
+  float: right;
+}
+
+.container{
+  position: relative;
+  width: 163px;
+  left: 450px;
+  bottom: 90px;
+}
+
+.container img{
+  margin: 10px 0px 0px 0px;
+}
+
+.foot{
+  font-family: 'avenir';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 35px;
+  color: white;
+  background: #686859;
+}
+
+#copy{
+  position: relative;
+  bottom: 10px;
+  padding-left: 48px;
+  color: white;
+}
