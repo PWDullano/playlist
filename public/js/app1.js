@@ -7,8 +7,9 @@ $(document).ready(function(){
 
     comet.done(function(payload){
       var gett = payload['results']
-      gett.forEach(function(thing, i){
-        $('#albums').append('<img class="covers" src="images/' + gett[i]['cover_art'] + ' " />')
+      gett.forEach(function(e, i){
+        var myId= 'cover_art' + i
+        $('#albums').append('<div id='+myId+'> <img class="covers" src="images/' + gett[i]['cover_art'] + ' " />')+'</div';
       })
   })
 

@@ -19,21 +19,65 @@ header{
   width: 500px;
 }
 
+#albums{
+  /*border: 1px solid black;*/
+  height: 200px;
+  overflow-x: scroll;
+  margin: 0 auto;
+}
+
 .covers{
   position: relative;
   text-align: center;
+  /*border: 1px solid black;*/
   top: 10px;
-  margin: 15px;
-  height: 100px;
+  margin: 10px;
+  height: 150px;
+  width: 150px;
 }
 
-select {
+#cover_art0{
+  margin-left: 200px;
+  width: 0px;
+  float: left;
+  padding-left: 10px
+}
+
+#cover_art1{
+  width: 0px;
+  float: left;
+  position: relative;
+  left: 200px;
+}
+
+#cover_art2{
+  width: 0px;
+  float: left;
+  position: relative;
+  left: 400px;
+}
+
+#cover_art3{
+  width: 0px;
+  float: left;
+  position: relative;
+  left: 600px;
+}
+
+#cover_art4{
+  width: 0px;
+  float: left;
+  position: relative;
+  left: 800px;
+}
+
+.select {
   border: 2px solid black;
-  width: 600px;
+  width: 850px;
   height: 125px;
   position: relative;
-  left: 60px;
-  top: 80px;
+  left: 275px;
+  top: 25px;
   background: #EEEEEE;
 }
 
@@ -41,8 +85,8 @@ button {
   font-family: 'avenir';
   border: 1px solid black;
   position: relative;
-  top: 95px;
-  left: 60px;
+  top: 45px;
+  left: 275px;
   width: 180px;
   height: 40px;
   border-radius: 4px;
