@@ -50,6 +50,34 @@ $(document).ready(function(){
 
 })
 
+$('#buttony').click(function(){
+  $('option').remove();
+})
+
+
+
+$(document).ready(function(){
+      comet = $.ajax({
+        url: 'https://lit-fortress-6467.herokuapp.com/post',
+        method: 'POST',
+      });
+
+      comet.done(function(payload){
+        $('#buttone').click(function(picky){
+          var picky = document.getElementsByClassName('select')[0].options;
+          var submit = [];
+          for (var i = 0; i < picky.length; i++) {
+            if(picky[i].selected){
+              submit += picky[i].value + ', ';
+            }
+          }
+          console.log(payload)
+          console.log(submit);
+        })
+
+      })
+    })
+
 // $(document).ready(function(){
 //     comet = $.ajax({
 //       url: 'https://lit-fortress-6467.herokuapp.com/object',
