@@ -1,5 +1,3 @@
-var getter;
-
 $(document).ready(function(){
       comet = $.ajax({
         url: 'https://lit-fortress-6467.herokuapp.com/post',
