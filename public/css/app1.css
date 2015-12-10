@@ -19,14 +19,12 @@ header{
   width: 500px;
 }
 
-.albums{
+.covers{
   position: relative;
   text-align: center;
   top: 10px;
-}
-
-.albums img {
   margin: 15px;
+  height: 100px;
 }
 
 select {
