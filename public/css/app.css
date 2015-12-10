@@ -1,6 +1,6 @@
 @font-face {
   font-family:'avenir';
-  src:url('font/AvenirNextLTPro-Regular.otf');
+  src:url('fonts/AvenirNextLTPro-Regular.otf');
 }
 
 body{
@@ -46,16 +46,14 @@ button a{
   float: right;
 }
 
-.container{
+#container img{
   position: relative;
-  width: 163px;
+  width: 187px;
   left: 450px;
   bottom: 90px;
-}
-
-.container img{
   margin: 10px 0px 0px 0px;
 }
+
 
 .foot{
   font-family: 'avenir';
